@@ -1,35 +1,20 @@
-# Shishu-Sneh
-Baby Vaccinaion And Health Tracking Application
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
+
+# Run and deploy your AI Studio app
+
+This contains everything you need to run your app locally.
+
+View your app in AI Studio: https://ai.studio/apps/217c5b64-b5a4-4b02-9161-22fbae326563
+
+## Run Locally
+
+**Prerequisites:**  Node.js
 
 
-
-Shishu Sneh – Child Care & Health Monitoring App
-
-Shishu Sneh is a mobile application developed to help parents and caregivers monitor child health and manage child-related information efficiently. The application provides features such as user authentication, child information management, health monitoring, and Firebase integration.
-
-The project was developed using HTML, CSS, JavaScript, TypeScript, Vite, Firebase, and Capacitor. The Android application was built and executed using Android Studio.
-
-Technologies Used
-HTML, CSS, JavaScript
-TypeScript & Vite
-Firebase
-Capacitor
-Android Studio
-Git & GitHub
-How to Run the Project
-1. Install Dependencies
-npm install
-2. Build the Project
-npm run build
-3. Sync Android Platform
-npx cap sync android
-4. Open in Android Studio
-npx cap open android
-5. Run the Application
-Open Android Studio
-Wait for Gradle Sync
-Start Emulator or connect Android device
-Click ▶ Run button
-Outcome
-
-The project was successfully converted into an Android application using Capacitor and Android Studio. The application demonstrates mobile app development, Firebase integration, and Android deployment.
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
